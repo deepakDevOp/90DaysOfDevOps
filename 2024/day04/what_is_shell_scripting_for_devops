@@ -1,0 +1,8 @@
+What is shell scripting for devops?
+
+A shell script is a script written in a shell scripting language,
+which is used for automating tasks and managing system configurations.
+It is series of commands written in a shell language
+(such as Bash, PowerShell, or others) which are executed by the shell interpreter.
+These scripts are commonly used in DevOps to streamline and automate
+the repetitive tasks, configure environments and deployment processes.
