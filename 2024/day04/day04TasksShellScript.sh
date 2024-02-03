@@ -17,6 +17,8 @@ echo "$argument1, $argument2"
 # Task03: If else in Shell Scripting by comparing 2 numbers
 if [ "$argument1" -gt "$argument2" ]; then
   echo "$argument1 is greater than $argument2"
+elif [ "$argument1" -eq "$argument2" ]; then
+  echo "$argument1 is equal to $argument2"
 else
   echo "$argument1 is less than $argument2"
 fi
