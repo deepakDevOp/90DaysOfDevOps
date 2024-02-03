@@ -8,7 +8,7 @@ dirName=$1
 dirStartNum=$2
 dirEndNum=$3
 
-for num in {$dirStartNum..$dirEndNum}
+for num in $(seq $dirStartNum $dirEndNum)
 do
   mkdir "$dirName$num"
 done
